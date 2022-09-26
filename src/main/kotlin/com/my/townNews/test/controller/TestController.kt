@@ -20,6 +20,11 @@ class TestController {
         // ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF
         logger.debug("KOTLIN HELLO TEST : {} ", model);
         logger.info("Hello This is Info Test !!!");
+
+        val list: List<Int> = {3};
+
+        Iterator
+
         return "test/hello";
     }
 
