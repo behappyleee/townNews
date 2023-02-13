@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Input } from "@material-ui/core";
+import axios from "axios";
 
-function loginMain() {
+function LoginMain() {
     const test = '';
-    
+    // useEffect(() => {
+    //     axios("/front").then((res) => {
+    //         console.log('AXIOS RES : ' + JSON.stringify(res));
+    //     })
+    // }, [])
     return (
         <div>
-            Login Main Page !!!!!!!!!!!!!!!!!
-            <Input />
+            Login Page ~~~~~~~~~~~ !!!!
         </div>
     )
 }
 
-export default loginMain;
+export default LoginMain;
